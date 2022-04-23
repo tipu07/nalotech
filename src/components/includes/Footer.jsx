@@ -5,7 +5,7 @@ import SocialLinks from "./SocialLinks";
 
 function Footer() {
 	const data = {
-		sec_bg: "/images/footer.svg",
+		// sec_bg: "/images/footer.svg",
 		block_01: {
 			title: "Explore",
 			list: [
@@ -69,7 +69,7 @@ function Footer() {
 	};
 	return (
 		<>
-			<footer style={{ backgroundImage: "url(" + data.sec_bg + ")" }}>
+			<footer>
 				<div className="contain">
 					{/* <Newsletter /> */}
 					<div className="flex_row main_row">

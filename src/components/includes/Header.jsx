@@ -16,7 +16,7 @@ function Header() {
 					<button type="button" className={!toggle ? "toggle" : "toggle active"} onClick={() => ToggleActive(!toggle)}>
 						<span></span>
 					</button>
-					<Navigation active={toggle} />
+					<Navigation active={toggle} toggle={ToggleActive} />
 					<div className="clearfix"></div>
 				</div>
 			</header>
